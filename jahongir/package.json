@@ -1,0 +1,12 @@
+{
+  "name": "royxatdan-otish-sayti",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js ro‘yxatdan o‘tish sayti",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

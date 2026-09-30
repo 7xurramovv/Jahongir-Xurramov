@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro‘yxatdan o‘tish</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+
+</head>
+
+<body>
+
+    <form id="registerForm">
+
+        <label for="name">Ism:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="pass">Parol:</label>
+        <input type="password" id="pass" minlength="6" required>
+
+        <label for="confirmPass">Parolni tasdiqlang:</label>
+        <input type="password" id="confirmPass" minlength="6" required>
+
+        <button type="submit">Ro‘yxatdan o‘tish</button>
+
+    </form>
+
+    <section id="usersSection">
+        <h2>Ro‘yxatdan o‘tganlar</h2>
+        <p id="usersMessage">Ma’lumotlar yuklanmoqda...</p>
+        <ul id="usersList"></ul>
+    </section>
+
+</body>
+</html>
